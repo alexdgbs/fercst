@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi amor️</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 8px;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #1e1e1e;
+      color: #fff;
+      text-align: center;
+    }
+    .player-container {
+      width: 85%;
+      max-width: 300px;
+      background: #2c2c2c;
+      border-radius: 10px;
+      padding: 12px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .player-container h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #ff7b7b;
+      animation: textColorChange 3s infinite;
+    }
+    .instructions {
+      margin: 10px 0;
+      font-size: 12px;
+      color: #bbb;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      height: 280px;
+      transition: transform 0.3s ease;
+    }
+    iframe:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #aaa;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes textColorChange {
+      0%, 100% {
+        color: #ff7b7b;
+      }
+      50% {
+        color: #ffdb7b;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <h1>❤️️</h1>
+    <iframe 
+      src="https://open.spotify.com/embed/track/4t46soaqA758rbukTO5pp1?utm_source=generator" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+    <div class="instructions">
+      <a href="https://open.spotify.com/track/4t46soaqA758rbukTO5pp1" target="_blank" style="color: #1db954; text-decoration: none;">Escuchar en Spotify</a>
+    </div>
+  </div>
+  <footer>
+    ¡Para mi niña bonita! ❤️️
+  </footer>
+</body>
+</html>
